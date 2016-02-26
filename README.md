@@ -10,18 +10,19 @@ youruser: $ git clone https://github.com/Larsouille/symfony3-apache-PHP7-Xdebug-
 Then, you have to build the image running:
 
 ```
-youruser: $ docker build -t thenameofyourimage .
+youruser:where/the/dockerfile/is $ docker build -t thenameofyourimage .
 ```
 
 Don't forget the "." at the end of the command!
 
 
-Tadam! If everything went right,  you probably end with a wonderful ready to run docker image!
+Tadam!
+If everything went right, you probably ended with a wonderful ready to run docker image!
 
 
 Also, you would run it with this command:
 ```
-youruser: $ docker run docker-whale
+youruser: $ docker run theimageyouwannarun
 ```
 
 Or list all images you made running:
@@ -42,7 +43,7 @@ The file "docker-compose.yml" has to be in the root of the future project.
 This done, start using this command:
 
 ```
-youruser: $ docker-compose up
+youruser:where/the/dockercomposefile/is $ docker-compose up
 ```
 
 If you need help, here's the documentation:
