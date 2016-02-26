@@ -49,3 +49,6 @@ youruser:where/the/dockercomposefile/is $ docker-compose up
 If you need help, here's the documentation:
 
 https://docs.docker.com/
+
+
+Thanks to: https://github.com/ajanssens :)
