@@ -37,6 +37,7 @@ youruser: $ $ docker ps -a # Lists all containers
 
 
 The file "docker-compose.yml" has to be in the root of the future project.
+(But, you'll still have to install docker compose first... here: https://docs.docker.com/compose/install/ )
 
 This done, start using this command:
 
